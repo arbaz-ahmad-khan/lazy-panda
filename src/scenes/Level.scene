@@ -1,0 +1,140 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0a7a8511-1198-401f-a4e2-4fa95be25cde",
+            "label": "gamePlayContainer",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9c82d048-d93c-4dab-83be-4664082d6ee1",
+                    "label": "bg",
+                    "texture": {
+                        "key": "bg"
+                    },
+                    "x": 540,
+                    "y": 960
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "b729dedb-a5d4-4fcd-9c85-9f04a1d9071d",
+            "label": "scoreText",
+            "scope": "CLASS",
+            "x": 540,
+            "y": 960,
+            "originX": 0.5,
+            "originY": 0.5,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5,
+            "text": "0",
+            "fontFamily": "Baskerville-Bold-02",
+            "fontSize": "700px",
+            "fontStyle": "bold",
+            "color": "#ffffffff",
+            "stroke": "#191616ff",
+            "strokeThickness": 8
+        },
+        {
+            "type": "Container",
+            "id": "c23285a1-63bc-463a-9e9f-711beb8617d9",
+            "label": "gameOverContainer",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "b9a4c6f0-7b07-4e67-8e28-6babf375278c",
+                    "label": "gameOverBestText",
+                    "scope": "CLASS",
+                    "x": 540,
+                    "y": 1260,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5,
+                    "text": "BEST: 0",
+                    "fontFamily": "Baskerville-Bold-02",
+                    "fontSize": "100px",
+                    "fontStyle": "bold",
+                    "color": "#ffffff",
+                    "stroke": "#191616ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Text",
+                    "id": "87e69012-3fe9-4fc9-a305-e036be61d868",
+                    "label": "gameOverScoreText",
+                    "scope": "CLASS",
+                    "x": 540,
+                    "y": 1100,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5,
+                    "text": "SCORE: 0",
+                    "fontFamily": "Baskerville-Bold-02",
+                    "fontSize": "100px",
+                    "fontStyle": "bold",
+                    "color": "#ffffff",
+                    "stroke": "#191616ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Text",
+                    "id": "2649a02a-c740-4e6e-b5ca-4427ea5327ac",
+                    "label": "text_2",
+                    "x": 540,
+                    "y": 840,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5,
+                    "text": "GAME OVER",
+                    "fontFamily": "Baskerville-Bold-02",
+                    "fontSize": "150px",
+                    "fontStyle": "bold",
+                    "color": "#ffffff",
+                    "stroke": "#191616ff",
+                    "strokeThickness": 5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "682513af-3281-4ad4-86eb-c1dcd480b6e0",
+            "label": "bricksContainer",
+            "scope": "CLASS"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

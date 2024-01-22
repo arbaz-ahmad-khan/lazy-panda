@@ -1,0 +1,99 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "starter-template-basic-typescript/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "99d9f715-455d-4034-8571-bd2ffb1f9e9c",
+            "label": "preloadBg",
+            "texture": {
+                "key": "preloadBg"
+            },
+            "x": 540,
+            "y": 960
+        },
+        {
+            "type": "Image",
+            "id": "e73050e5-e0e6-444b-afe9-a50664aa5d5e",
+            "label": "playBtn",
+            "scope": "CLASS",
+            "texture": {
+                "key": "playBtn"
+            },
+            "x": 540,
+            "y": 1700,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b43cfd52-e5a3-47fd-8c0b-a614007f78bb",
+            "label": "lazyText",
+            "scope": "CLASS",
+            "texture": {
+                "key": "LazyText"
+            },
+            "x": -126,
+            "y": 350,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cafad20f-77c1-459b-a10a-8cb024e70a4b",
+            "label": "rocket",
+            "scope": "CLASS",
+            "texture": {
+                "key": "rocket"
+            },
+            "x": 1200,
+            "y": 1529,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "653b0fca-6323-4f7f-8414-c6303074a45c",
+            "label": "pandaText",
+            "scope": "CLASS",
+            "texture": {
+                "key": "pandaText"
+            },
+            "x": 1290,
+            "y": 576,
+            "visible": false
+        },
+        {
+            "type": "Text",
+            "id": "650e0af5-577b-45c2-97d6-418218bf6ce1",
+            "label": "progress",
+            "scope": "CLASS",
+            "x": 540,
+            "y": 1700,
+            "originX": 0.5,
+            "originY": 0.5,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5,
+            "text": "0",
+            "fontFamily": "Baskerville-Bold-02",
+            "fontSize": "100px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}
